@@ -1,0 +1,77 @@
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th {
+background-color: rgb(114, 4, 4);
+border: 2px solid rgb(114, 4, 4);
+}
+
+td {
+    border: 2px solid rgb(114, 4, 4);;
+    background-color: rgb(204, 39, 39);
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+body {
+    background-color: rgb(255, 97, 97);
+    font-family: cursive;
+   
+}
+
+header {
+    background-color: darkred;
+        padding: 20px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border: 2px solid rgb(102, 0, 0);
+        border-radius: 12px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(170, 53, 53);
+    border: 2px solid rgb(102, 0, 0);
+    border-radius: 12px;
+}
+
+
+.topnav x {
+    float: left;
+    display: block;
+    color: #f2f2f260;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#coca{
+    text-align: center;
+}
+
+
+.footer {
+    background-color: darkred;
+    padding: 5px;
+    text-align: left;
+    font-size: 10px;
+    border: 2px solid rgb(102, 0, 0);
+    border-radius: 12px;
+
+}
+
+.button {
+    background-color: lightcoral; 
+    color: black; 
+    border: 2px solid black;
+    border-radius: 8px;
+}

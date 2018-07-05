@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Intervalo De Classe</title>
+</head>
+<body>
+    <header><h1>Faça sua Tabela com Intervalos!</h1></header>
+
+    <div class="topnav">
+        <p id="coca" onmouseover ="this.style.color='red'" onmouseout="this.style.color='black'">Basta digitar os campos abaixo e pronto!</p>
+     
+      </div>
+      <br>
+
+    <input type="text" placeholder="Titulo" id="titulo">
+    <input type="text"placeholder="Cabeçalho" id="cb">
+    <input type="text" placeholder="Dados separados por ;" id="dados">
+    <input type="text" placeholder="Fonte" id="fonte"> 
+<br>
+<br>
+    <fieldset id="tb">
+        <legend>Dados da Tabela</legend>
+        <div>
+            <input type="checkbox" id="FR">
+            <label onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Frequencia Relativa</label>
+        </div>
+        <div>
+            <input type="checkbox" id="FRA">
+            <label onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Frequencia Relativa Acumulada</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Fi">
+            <label onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Frequencia Absoluta</label>
+        </div>
+        <div>
+            <input type="checkbox" id="FiA">
+            <label onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Frequencia Absoluta Acumulada</label>
+        </div>
+    </fieldset>
+    <button type="button" id="butao" class="button">Gerar Tabela</button>
+    <center><table class="w3-table-all" id="tabela"></table></center>
+<br><br><br><br>
+
+    <div class="footer">
+        <p>© 2018 - Tabela com Intervalo | TODOS OS DIREITOS RESERVADOS - DESENVOLVIDO POR Laísa PR & Ana Clara</p>
+      </div>
+
+<script src="main.js"></script>
+</body>
+</html>
